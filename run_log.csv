@@ -1,0 +1,5 @@
+timestamp,message_type,validation_status,error_count,http_status,latency_seconds
+2026-09-17T17:50:20.414114,ADT_A01 + ORU_R01,Pass (warnings only),0,200.0,1.95
+2026-09-17T17:56:12.682496,Missing DOB,Fail,1,,
+2026-09-17T17:56:12.682496,Invalid gender code,Pass,0,,
+2026-09-21T09:51:23.618573,Malformed lab value,Fail,1,,

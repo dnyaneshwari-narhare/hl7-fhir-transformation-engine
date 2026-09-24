@@ -1,0 +1,106 @@
+{
+  "resourceType": "Bundle",
+  "id": "aa32dd38-43f0-472f-860d-2cb928f7dbde",
+  "type": "transaction-response",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://hapi.fhir.org/baseR4"
+    }
+  ],
+  "entry": [
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Patient/25784/_history/1",
+        "etag": "1",
+        "lastModified": "2026-09-17T20:46:53.145-04:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully created resource &quot;Patient/25784/_history/1&quot;. Took 20ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE",
+                    "display": "Create succeeded."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully created resource \"Patient/25784/_history/1\". Took 20ms."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Encounter/25785/_history/1",
+        "etag": "1",
+        "lastModified": "2026-09-17T20:46:53.145-04:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully created resource &quot;Encounter/25785/_history/1&quot;. Took 2ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE",
+                    "display": "Create succeeded."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully created resource \"Encounter/25785/_history/1\". Took 2ms."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "response": {
+        "status": "201 Created",
+        "location": "Observation/25786/_history/1",
+        "etag": "1",
+        "lastModified": "2026-09-17T20:46:53.145-04:00",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Operation Outcome</h1><table border=\"0\"><tr><td style=\"font-weight: bold;\">INFORMATION</td><td>[]</td><td>Successfully created resource &quot;Observation/25786/_history/1&quot;. Took 3ms.</td></tr></table></div>"
+          },
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "details": {
+                "coding": [
+                  {
+                    "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+                    "code": "SUCCESSFUL_CREATE",
+                    "display": "Create succeeded."
+                  }
+                ]
+              },
+              "diagnostics": "Successfully created resource \"Observation/25786/_history/1\". Took 3ms."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
